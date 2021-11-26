@@ -877,8 +877,7 @@ def menu():
     except requests.exceptions.ConnectionError:
         exit("%s [!] Kesalahan koneksi "%(M))
     banner()
-    print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))
-    print '___________________________________________________________\n';time.sleep(0.03)
+    print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))print '___________________________________________________________\n';time.sleep(0.03)
     print (' [%s01%s]. Crack Nama Ig/Instagram'%(O,U)) 
     print (' [%s02%s]. Dump Id Facebook Publik'%(O,K)) 
     print (' [%s03%s]. Dump Id Facebook Follow'%(O,U))
