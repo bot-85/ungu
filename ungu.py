@@ -10,12 +10,12 @@ ingfo = (
 """%s
  • Informasi Alat :
  	
- - Developer   : Ramdhan Ramadhian XD
- - Facebook    : Facebook.com/105805581664563
- - Instagram   : ramdhan.ramadhian99
- - Github      : Github.com/Ramdhan7
- - Tool name   : Crackah The Master Crack
- - Version     : 1.0 (BETA) "In Development
+ - Developer   : BINTANG-XD
+ - Facebook    : Bintang Tyz
+ - Yutube      : BINTANG XD
+ - Github      : Github.com/bot-85
+ - Tool name   : lion of diyour
+ - Version     : 1.2 (BETA) "In Development
  
 %s"""%(Hj,Mt))
 import os
@@ -62,13 +62,13 @@ IP = requests.get("https://api.ipify.org/").text
 def banner():
 	print (''' %s 
 Presented%s \n_____             __        __ 
- / ___/______ _____/ /_____ _/ /  \n / /__/ __/ _ `/ __/  '_/ _ `/ _ \ \n \___/_/  \_,_/\__/_/\_\\_,_/_//_/  \n %s[%s+%s] Author : %sRamdhan Ramadhian XD \n %s[%s+%s] Facebook : Facebook.com/105805581664563 \n %s[%s+%s] Github : Github.com/Ramdhan7/crackah \n [%s+%s] Alamat IP : %s%s'''%
+ / ___/______ _____/ /_____ _/ /  \n / /__/ __/ _ `/ __/  '_/ _ `/ _ \ \n \___/_/  \_,_/\__/_/\_\\_,_/_//_/  \n %s[%s+%s] Author : %sBINTANG-XD \n %s[%s+] Yutube :  \n %s[%s+%s] Github : Github.com/bot-85 \n [%s+%s] IP Address : %s%s'''%
  (U,O,U,O,U,O,U,O,U,O,P,O,P,U,P,IP))
 # MASUK TOKEN
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
     os.system('clear');banner()
-    print ('\n%s [01] Masuk Token \n [02] Cara Memakai Alat \n [%s00%s] Keluar'%(P,M,P))
+    print ('\n%s [01] Masuk Token \n [02] Cara Mengambil token \n [%s00%s] Keluar'%(P,M,P))
     rom = raw_input('\n%s [?] Menu : %s'%(P,K))
     if rom in(""):
     	print("%s [!] Isi yang benar "%(M));exit()
@@ -79,7 +79,7 @@ def masuk():
         	print("%s [!] Isilah dengan cinta "%(M));exit()
     	try:
             gas = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
-            print ('\n%s[√] Login bisa, tunggulah '%(H));jeda(2)
+            print ('\n%s[√] Login berhasil. '%(H));jeda(2)
             open('token.txt', 'w').write(romz);login_xx()
             exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
         except (KeyError,IOError):
@@ -97,7 +97,7 @@ def masuk():
         elif nanya in("y","Y"):
         	print ("\n%s [√] Nah Tuh Paham Mulai Crack sono! :* "%(H));jeda(2);masuk()
         elif nanya in("n","N"):
-        	print ("\n%s [!] Memek Lah,Minta Digetok lu ? "%(M));jeda(2);os.system("xdg-open https://youtu.be/IG5QfdxRkeY");masuk()
+        	print ("\n%s [!] Dahlah yang bener su ? "%(M));jeda(2);os.system("xdg-open https://youtu.be/IG5QfdxRkeY");masuk()
     elif rom in ('0', '00'):
     	exit('\n')
     else:
@@ -877,20 +877,20 @@ def menu():
     except requests.exceptions.ConnectionError:
         exit("%s [!] Kesalahan koneksi "%(M))
     banner()
-    print ('\n %s[ Akulah %s%s%s ] \n'%(P,H,nama,P))
-    print (' (%s01%s) Instagram Crack Nama'%(O,U)) 
-    print (' (%s02%s) Facebook Dump Publik'%(O,P)) 
-    print (' (%s03%s) Facebook Dump Follow'%(O,P))
-    print (' (%s04%s) Facebook Dump Postingan '%(O,P))
-    print (' (%s05%s) Facebook Dump Nama'%(O,P))
-    print (' (%s06%s) Facebook Dump Group'%(O,P))
-    print (' (%s07%s) Facebook Dump Pesan Mesengger'%(O,P))
-    print (' (%s08%s) %sMemulai Operasi Crack %s'%(O,P,M,P)) 
-    print (' (%s09%s) User Agent'%(O,K)) 
-    print (' (%s10%s) Memeriksa Pendapatan Akun'%(O,B))
-    print (' (%s11%s) Memeriksa Jenis Chekpoint/Opsi CP'%(O,H))
-    #print (' (%s12%s) Gabung group'%(O,P))
-    #print (' (%s13%s) Informasi Alat'%(O,P))
+    print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))
+    print (' (%s01%s) Crack Nama Instagram'%(O,U)) 
+    print (' (%s02%s) Dump Id Publik'%(O,P)) 
+    print (' (%s03%s) Dump Id Follow'%(O,P))
+    print (' (%s04%s) Dump Id Postingan '%(O,P))
+    print (' (%s05%s) Dump Id Nama'%(O,P))
+    print (' (%s06%s) Dump Id Group'%(O,P))
+    print (' (%s07%s) Dump Id Pesan Mesengger'%(O,P))
+    print (' (%s08%s) %sMemulai Crack %s'%(O,P,M,P)) 
+    print (' (%s09%s) Ganti User Agent'%(O,K)) 
+    print (' (%s10%s) Check Pendapatan Akun'%(O,B))
+    print (' (%s11%s) Check Jenis Chekpoint/Opsi CP'%(O,H))
+    print (' (%s12%s) Gabung group'%(O,P))
+    print (' (%s13%s) Informasi Alat'%(O,P))
     print (' (%s00%s) Log Out '%(P,H))
     unik = raw_input('\n%s [!] Menu : %s'%(P,O))
     if unik == '':
