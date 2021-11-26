@@ -881,7 +881,7 @@ def menu():
     print (' [%s01%s]. Crack Nama Ig/Instagram'%(O,U)) 
     print (' [%s02%s]. Dump Id Facebook Publik'%(O,K)) 
     print (' [%s03%s]. Dump Id Facebook Follow'%(O,U))
-    print (' [%s04%s]. Dump Id Facebook Postingan'%(M,P))
+    print (' [%s04%s]. Dump Id Facebook Postingan'%(O,P,M,P))
     print (' [%s05%s]. Dump Id Facebook Nama'%(P,H))
     print (' [%s06%s]. Dump Id Facebook Group'%(O,B))
     print (' [%s07%s]. Dump Id Facebook Pesan Mesengger'%(O,H))
