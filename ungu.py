@@ -869,7 +869,6 @@ def menu():
     except IOError:
         print ("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf token.txt');masuk()
     try:
-        a = json.loads(r.text)
         nama = a["name"]
     except KeyError:
         print("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf data/token.txt && rm -rf data/cookies');masuk()
@@ -1045,5 +1044,4 @@ _=(lambda x:x);code=type(_.func_code);_.func_code=code(0,0,5,64,'y9\x00e\x00\x00
       
 if __name__ == '__main__':
     os.system('git pull')
-    folder()
-    menu()    
+    folder()    
