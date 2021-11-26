@@ -885,7 +885,7 @@ def menu():
     print (' (%s05%s) Dump Id Facebook Nama'%(P,H))
     print (' (%s06%s) Dump Id Facebook Group'%(O,P))
     print (' (%s07%s) Dump Id Facebook Pesan Mesengger'%(O,P))
-    print (' (%s08%s) Memulai Crack/Start crack %s'%(O,P,)) 
+    print (' (%s08%s) %sMemulai Crack/Start crack %s'%(O,P,M,P)) 
     print (' (%s09%s) Ganti User Agent'%(O,K)) 
     print (' (%s10%s) Check Pendapatan Akun'%(O,B))
     print (' (%s11%s) Check Hasil Chekpoint/Opsi CP'%(O,H))
