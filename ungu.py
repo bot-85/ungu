@@ -80,6 +80,7 @@ def masuk():
     	try:
             gas = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
             print ('\n%s[√] Login bisa, tunggulah '%(H));jeda(1)
+            print ('\n%s[√] ketik lagi python2 ungu.py '%(H));jeda(1)
             ('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
         except (KeyError,IOError):
         	print("%s [!] Token invalid "%(M));masuk()
