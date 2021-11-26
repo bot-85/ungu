@@ -61,7 +61,7 @@ def folder():
 IP = requests.get("https://api.ipify.org/").text
 def banner():
 	print (''' %s 
-Presented%s \n_____             __        __ 
+projects%s \n_____             __        __ 
  / ___/______ _____/ /_____ _/ /  \n / /__/ __/ _ `/ __/  '_/ _ `/ _ \ \n \___/_/  \_,_/\__/_/\_\\_,_/_//_/  \n %s[%s+%s] Author : %sBINTANG-XD \n %s[%s+%s] Facebook : Facebook.com/105805581664563 \n %s[%s+%s] Github : Github.com/bot-85 \n [%s+%s] Alamat IP : %s%s'''%
  (U,O,U,O,U,O,U,O,U,O,P,O,P,U,P,IP))
 # MASUK TOKEN
@@ -879,20 +879,20 @@ def menu():
     banner()
     print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))
     print (' (%s01%s) Crack Nama Instagram'%(O,U)) 
-    print (' (%s02%s) Dump Id Publik'%(O,P)) 
-    print (' (%s03%s) Dump Id Follow'%(O,P))
-    print (' (%s04%s) Dump Id Postingan '%(O,P))
-    print (' (%s05%s) Dump Id Nama'%(O,P))
-    print (' (%s06%s) Dump Id Group'%(O,P))
-    print (' (%s07%s) Dump Id Pesan Mesengger'%(O,P))
-    print (' (%s08%s) %sMemulai Crack %s'%(O,P,M,P)) 
+    print (' (%s02%s) Dump Id Facebook Publik'%(O,H)) 
+    print (' (%s03%s) Dump Id Facebook Follow'%(O,U))
+    print (' (%s04%s) Dump Id Facebook Postingan '%(O,B))
+    print (' (%s05%s) Dump Id Facebook Nama'%(O,P))
+    print (' (%s06%s) Dump Id Facebook Group'%(O,P))
+    print (' (%s07%s) Dump Id Facebook Pesan Mesengger'%(O,P))
+    print (' (%s08%s) %sMemulai Crack/Start crack %s'%(O,P,P,O)) 
     print (' (%s09%s) Ganti User Agent'%(O,K)) 
     print (' (%s10%s) Check Pendapatan Akun'%(O,B))
-    print (' (%s11%s) Check Jenis Chekpoint/Opsi CP'%(O,H))
-    print (' (%s12%s) Gabung group'%(O,P))
-    print (' (%s13%s) Informasi Alat'%(O,P))
+    print (' (%s11%s) Check Hasil Chekpoint/Opsi CP'%(O,H))
+    #print (' (%s12%s) Gabung group'%(O,P))
+    #print (' (%s13%s) Informasi Alat'%(O,P))
     print (' (%s00%s) Log Out '%(P,H))
-    unik = raw_input('\n%s [!] Menu : %s'%(P,O))
+    unik = raw_input('\n%s [!] Menu : %s'%(M,P))
     if unik == '':
         print("%s [!] Isilah Dengan Cinta "%(M));jeda(2);menu()
     elif unik in['1','01']:
