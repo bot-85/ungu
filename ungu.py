@@ -62,7 +62,7 @@ IP = requests.get("https://api.ipify.org/").text
 def banner():
 	print (''' %s 
 projects 2022%s \n   _____             __          __ 
-  / ___/______ _____/ /  _____ _/ /  \n / /__/ __/ _ `/ __/  '_/ _ `/ _ \ \n \___/_/  \_,_/\__/_/\_\\_,_/_//_/  \n %s[%s*.%s] Author : %sBINTANG-XD \n %s[%s*.%s] Status      : %sPremium %s"%(H,N)) \n %s[%s*.%s] Github : Github.com/bot-85 \n [%s*.%s] Alamat IP : %s%s'''%
+  / ___/______ _____/ /  _____ _/ /  \n / /__/ __/ _ `/ __/  '_/ _ `/ _ \ \n \___/_/  \_,_/\__/_/\_\\_,_/_//_/  \n %s[%s*.%s] Author : %sBINTANG-XD \n %s[%s*.%s] Facebook : Bintang Tzy \n %s[%s*.%s] Github : Github.com/bot-85 \n [%s*.%s] Alamat IP : %s%s'''%
  (U,O,U,O,U,O,U,O,U,O,P,O,P,U,P,IP))
 # MASUK TOKEN
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
@@ -717,7 +717,7 @@ def dumpfl():
         if new == True:
             open('data/cookies', 'w').write(cookie)
         sim=raw_input("\n%s%s%s Nama file %s>%s "%(U,til,O,M,K)).replace(" ","_")
-        print ("%s%s%s Example nama orang %s[ %sRamdhanRamadhian %s]"%(U,til,O,P,H,P))
+        print ("%s%s%s Example nama orang %s[ %sBintang XD %s]"%(U,til,O,P,H,P))
         s=raw_input("%s%s%s Sett nama %s> %s"%(U,til,O,M,K))
         if s in("romi","Romi","ROMI","Romi Afrizal","Romi afrizal","ROMI AFRIZAL","romi afrizal"):
         	print("\n%s%s anak anjing mau crack pake nama gw "%(M,til));exit()
@@ -878,7 +878,6 @@ def menu():
         exit("%s [!] Kesalahan koneksi "%(M))
     banner()
     print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))
-    print(" [•] Status      : %sPremium %s"%(H,N))
     print (' [%s01%s]. Crack Nama Ig/Instagram'%(O,U)) 
     print (' [%s02%s]. Dump Id Facebook Publik'%(O,K)) 
     print (' [%s03%s]. Dump Id Facebook Follow'%(O,U))
