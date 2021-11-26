@@ -86,18 +86,18 @@ def masuk():
         	print("%s [!] Token invalid "%(M));masuk()
     elif rom in ('2', '02'):
     	print ("\n%s%s Berikut cara nya :"%(H,til));jeda(2)
-        print (" - pertama masuk Google chrome ");jeda(2)
-        print (" - yang ketiga lalu ketik %sm.facebook %s"%(O,K));jeda(2)
+        print (" - pertama masuk Google chrome Usahkan akun tumbal ");jeda(2)
+        print (" - sihlahkan ketik %sm.facebook %s"%(O,K));jeda(2)
         print (" - Terus cari titik tiga yang diatas lalu ketik %sEAAA %sLalu cari)"%(O,H));jeda(2)
-        print (" - klo udah ketemu lalu %ssalin dan tempel di Script ini "%(O));jeda(2)
+        print (" - klo udah ketemu lalu Di %ssalin dan tempel di Script ini "%(O));jeda(2)
         print ("%s - paham kan klo paham ketik Y klo ga paham ketik N "%(H));jeda(2)
         nanya = raw_input('%s [?] Paham Gak ?[%sy%s/%sn%s] :%s '%(P,H,P,M,P,K))
         if nanya in(""):
         	print ("%s [!] Ayo dijawab kalo gak ngerti kasitau "%(M));jeda(2);masuk()
         elif nanya in("y","Y"):
-        	print ("\n%s [√] Nah Tuh Paham Mulai Crack sono! :* "%(H));jeda(2);masuk()
+        	print ("\n%s [√] Tumben paham lu :* "%(H));jeda(2);masuk()
         elif nanya in("n","N"):
-        	print ("\n%s [!] Dahlah yang bener su ? "%(M));jeda(2);os.system("xdg-open https://youtu.be/IG5QfdxRkeY");masuk()
+        	print ("\n%s [!] Anak Tolol!! "%(M));jeda(2);os.system("xdg-open https://youtu.be/IG5QfdxRkeY");masuk()
     elif rom in ('0', '00'):
     	exit('\n')
     else:
@@ -197,7 +197,7 @@ class ngentod:
             raw_input('\n%s [ %senter %s] '%(P,K,P));menu()
         unikers = raw_input('%s [?] ingin gunakan password manual? [y/t] :%s '%(P,K))
         if unikers in ('Y', 'y'):
-            print '\n %s[%s!%s] cth : %ssayang,anjing%s gunakan , (koma) untuk pemisah '%(P,M,P,H,P)
+            print '\n %s[%s!%s] cth : %ssayang,anjing,jancok.%s gunakan , (koma) untuk pemisah '%(P,M,P,H,P)
             while True:
                 pwx = raw_input(' %s[?] set password :%s '%(P,K))
                 if pwx == '':
