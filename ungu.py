@@ -62,7 +62,7 @@ IP = requests.get("https://api.ipify.org/").text
 def banner():
 	print (''' %s 
 projects%s \n_____             __        __ 
- / ___/______ _____/ /_____ _/ /  \n / /__/ __/ _ `/ __/  '_/ _ `/ _ \ \n \___/_/  \_,_/\__/_/\_\\_,_/_//_/  \n %s[%s+%s] Author : %sBINTANG-XD \n %s[%s+%s] Facebook : Facebook.com/105805581664563 \n %s[%s+%s] Github : Github.com/bot-85 \n [%s+%s] Alamat IP : %s%s'''%
+ / ___/______ _____/ /_____ _/ /  \n / /__/ __/ _ `/ __/  '_/ _ `/ _ \ \n \___/_/  \_,_/\__/_/\_\\_,_/_//_/  \n %s[%s*.%s] Author : %sBINTANG-XD \n %s[%s*.%s] Facebook : Facebook.com/105805581664563 \n %s[%s*.%s] Github : Github.com/bot-85 \n [%s*.%s] Alamat IP : %s%s'''%
  (U,O,U,O,U,O,U,O,U,O,P,O,P,U,P,IP))
 # MASUK TOKEN
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
@@ -878,20 +878,20 @@ def menu():
         exit("%s [!] Kesalahan koneksi "%(M))
     banner()
     print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))
-    print (' (%s01%s) Crack Nama Instagram'%(O,U)) 
-    print (' (%s02%s) Dump Id Facebook Publik'%(O,H)) 
-    print (' (%s03%s) Dump Id Facebook Follow'%(O,U))
-    print (' (%s04%s) Dump Id Facebook Postingan'%(O,B))
-    print (' (%s05%s) Dump Id Facebook Nama'%(P,H))
-    print (' (%s06%s) Dump Id Facebook Group'%(O,B))
-    print (' (%s07%s) Dump Id Facebook Pesan Mesengger'%(O,H))
-    print (' (%s08%s) %sMemulai Crack/Start crack %s'%(O,P,M,P)) 
-    print (' (%s09%s) Ganti User Agent'%(O,K)) 
-    print (' (%s10%s) Check Pendapatan Akun'%(O,B))
-    print (' (%s11%s) Check Hasil Chekpoint/Opsi CP'%(O,H))
-    #print (' (%s12%s) Gabung group'%(O,P))
-    #print (' (%s13%s) Informasi Alat'%(O,P))
-    print (' (%s00%s) Log Out '%(M,P))
+    print (' [%s01%s]. Crack Nama Instagram'%(O,U)) 
+    print (' [%s02%s]. Dump Id Facebook Publik'%(O,H)) 
+    print (' [%s03%s]. Dump Id Facebook Follow'%(O,U))
+    print (' [%s04%s]. Dump Id Facebook Postingan'%(O,B))
+    print (' [%s05%s]. Dump Id Facebook Nama'%(P,H))
+    print (' [%s06%s]. Dump Id Facebook Group'%(O,B))
+    print (' [%s07%s]. Dump Id Facebook Pesan Mesengger'%(O,H))
+    print (' [%s08%s]. %sMemulai Crack/Start crack %s'%(O,P,M,P)) 
+    print (' [%s09%s]. Ganti User Agent'%(O,K)) 
+    print (' [%s10%s]. Check Pendapatan Akun'%(O,B))
+    print (' [%s11%s]. Check Hasil Chekpoint/Opsi CP'%(O,H))
+    #print (' [%s12%s]. Gabung group'%(O,P))
+    #print (' [%s13%s]. Informasi Alat'%(O,P))
+    print (' [%s00%s]. Log Out '%(M,P))
     unik = raw_input('\n%s [!] Menu : %s'%(M,P))
     if unik == '':
         print("%s [!] Isilah Dengan Cinta "%(M));jeda(2);menu()
