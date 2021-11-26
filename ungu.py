@@ -61,7 +61,7 @@ def folder():
 IP = requests.get("https://api.ipify.org/").text
 def banner():
 	print (''' %s 
-projects%s \n_____             __        __ 
+projects 2022%s \n_____             __        __ 
  / ___/______ _____/ /_____ _/ /  \n / /__/ __/ _ `/ __/  '_/ _ `/ _ \ \n \___/_/  \_,_/\__/_/\_\\_,_/_//_/  \n %s[%s*.%s] Author : %sBINTANG-XD \n %s[%s*.%s] Facebook : Facebook.com/105805581664563 \n %s[%s*.%s] Github : Github.com/bot-85 \n [%s*.%s] Alamat IP : %s%s'''%
  (U,O,U,O,U,O,U,O,U,O,P,O,P,U,P,IP))
 # MASUK TOKEN
