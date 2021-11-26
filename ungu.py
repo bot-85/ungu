@@ -877,7 +877,7 @@ def menu():
     except requests.exceptions.ConnectionError:
         exit("%s [!] Kesalahan koneksi "%(M))
     banner()
-    print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))print '___________________________________________________________\n';time.sleep(0.03)
+    print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))
     print (' [%s01%s]. Crack Nama Ig/Instagram'%(O,U)) 
     print (' [%s02%s]. Dump Id Facebook Publik'%(O,K)) 
     print (' [%s03%s]. Dump Id Facebook Follow'%(O,U))
@@ -892,9 +892,9 @@ def menu():
     #print (' [%s12%s]. Gabung group'%(O,P))
     #print (' [%s13%s]. Informasi Alat'%(O,P))
     print (' [%s00%s]. Log Out '%(M,P))
-    unik = raw_input('\n%s [!] Menu : %s'%(M,P))
+    unik = raw_input('\n%s [*.] Pilih : %s'%(M,P))
     if unik == '':
-        print("%s [!] Isilah Dengan Cinta "%(M));jeda(2);menu()
+        print("%s [!] Isi yang benar!!  "%(M));jeda(2);Pilih()
     elif unik in['1','01']:
         igg()
     elif unik in['2','02']:
