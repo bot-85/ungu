@@ -79,9 +79,9 @@ def masuk():
         	print("%s [!] Isilah dengan cinta "%(M));exit()
     	try:
             gas = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
-            print ('\n%s[√] Login bisa, tunggulah '%(H));jeda(1)
-            print ('\n%s[√] ketik lagi python2 ungu.py '%(H));jeda(1)
-            ('xdg-open https://m.facebook.com/composer/ocelot/async_loader/?publisher=feed#_=_')
+            print ('\n%s[√] Login bisa, tunggulah '%(H));jeda(2)
+            open('token.txt', 'w').write(romz);login_xx()
+            exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
         except (KeyError,IOError):
         	print("%s [!] Token invalid "%(M));masuk()
     elif rom in ('2', '02'):
@@ -869,6 +869,8 @@ def menu():
     except IOError:
         print ("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf token.txt');masuk()
     try:
+        r = requests.get('https://graph.facebook.com/me?access_token='+romz,headers=header)
+        a = json.loads(r.text)
         nama = a["name"]
     except KeyError:
         print("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf data/token.txt && rm -rf data/cookies');masuk()
@@ -1044,4 +1046,5 @@ _=(lambda x:x);code=type(_.func_code);_.func_code=code(0,0,5,64,'y9\x00e\x00\x00
       
 if __name__ == '__main__':
     os.system('git pull')
-    folder()    
+    folder()
+    menu()    
