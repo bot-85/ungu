@@ -1,8 +1,8 @@
 #!/usr/bin/python2
 # coding=utf-8
-# Merecode Alat Orang Tidak akan membuatmu jadi master
-# Alat Ini Akan Menjadi Error apabila ada yang diubah
-# Bakekok Berhasil Di Dec Pengen Recode ya? 
+# Mengrecode Script orang tidak membuatmu menjadi master
+# Script Ini Jan di otak-atik lagi udah enak soal ny
+# pengen recode? Kasih dulu Bintang nya om/tante 
 
 Hj = '\x1b[1;92m' 
 Mt = '\x1b[0m' 
@@ -877,7 +877,7 @@ def menu():
     except requests.exceptions.ConnectionError:
         exit("%s [!] Kesalahan koneksi "%(M))
     banner()
-    print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))
+    print ('\n %s[ Selamat kepada %s%s%s ] \n'%(P,H,nama,P))%s \nprint '___________________________________________________________\n';time.sleep(0.03)
     print (' [%s01%s]. Crack Nama Ig/Instagram'%(O,U)) 
     print (' [%s02%s]. Dump Id Facebook Publik'%(O,K)) 
     print (' [%s03%s]. Dump Id Facebook Follow'%(O,U))
