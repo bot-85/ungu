@@ -85,11 +85,11 @@ def masuk():
         except (KeyError,IOError):
         	print("%s [!] Token invalid "%(M));masuk()
     elif rom in ('2', '02'):
-    	print ("\n%s%s Berikut cara nya :"%(H,til));jeda(2)
-        print (" - pertama masuk Google chrome Usahkan akun tumbal ");jeda(2)
+    	print ("\n%s%s Ikuti langkah langkah sebagai berikut"%(H,til));jeda(2)
+        print (" - pertama masuk Google chrome, Usahkan akun tumbal ");jeda(2)
         print (" - sihlahkan ketik %sm.facebook %s"%(O,K));jeda(2)
         print (" - Terus cari titik tiga yang diatas lalu ketik %sEAAA %sLalu cari)"%(O,H));jeda(2)
-        print (" - klo udah ketemu lalu Di %ssalin dan tempel di Script ini "%(O));jeda(2)
+        print (" - klo sudah ketemu lalu Di %ssalin dan tempel di Script ini "%(O));jeda(2)
         print ("%s - paham kan klo paham ketik Y klo ga paham ketik N "%(H));jeda(2)
         nanya = raw_input('%s [?] Paham Gak ?[%sy%s/%sn%s] :%s '%(P,H,P,M,P,K))
         if nanya in(""):
