@@ -10,7 +10,7 @@ ingfo = (
 """%s
  • Informasi Alat :
  	
- - Developer   : BINTANG-XD
+ - Developer   : BINTANG-XD-Romi Afrizal
  - Facebook    : Bintang Tyz
  - Yutube      : BINTANG XD
  - Github      : Github.com/bot-85
@@ -571,7 +571,7 @@ def uas():
     if u == '':
         print("%s [!] Isi yang benar kentod "%(M));jeda(2);uas()
     elif u in("1","01"):
-    	print (" %s[%s*%s] ketik %sMy user agent%s di browser google chrome\n [%s*%s] untuk gunakan user agent anda sendiri"%(P,K,P,H,P,K,P))
+    	print (" %s[%s*%s] ketik %sMy user agent%s di browser, google, chrome\n [%s*%s] untuk gunakan user agent anda sendiri"%(P,K,P,H,P,K,P))
     	print (" [%s*%s] ketik %sdefault%s untuk gunakan user agent bawaan tools"%(K,P,H,P))
     	try:
     	    ua = raw_input("%s [?] user agent : %s"%(P,K))
