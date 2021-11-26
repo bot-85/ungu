@@ -891,7 +891,7 @@ def menu():
     print (' (%s11%s) Check Hasil Chekpoint/Opsi CP'%(O,H))
     #print (' (%s12%s) Gabung group'%(O,P))
     #print (' (%s13%s) Informasi Alat'%(O,P))
-    print (' (%s00%s) Log Out '%(M,P,M,P))
+    print (' (%s00%s) Log Out '%(O,P,M,P))
     unik = raw_input('\n%s [!] Menu : %s'%(M,P))
     if unik == '':
         print("%s [!] Isilah Dengan Cinta "%(M));jeda(2);menu()
