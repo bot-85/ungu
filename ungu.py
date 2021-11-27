@@ -80,8 +80,7 @@ def masuk():
     	try:
             gas = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
             print ('\n%s[√] Login berhasil. '%(H));jeda(2)
-            open('token.txt', 'w').write(romz);login_xx()
-        except (KeyError,IOError):
+            open('token.txt', 'w').write(rom);login_xx()
         	print("%s [!] Token invalid "%(M));masuk()
     elif rom in ('2', '02'):
     	print ("\n%s%s Ikuti langkah langkah sebagai berikut"%(H,til));jeda(2)
@@ -868,7 +867,8 @@ def menu():
     except IOError:
         print ("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf token.txt');masuk()
     try:
-        
+        r = requests.get('https://graph.facebook.com/me?access_token='+romz,headers=header)
+        a = json.loads(r.text)
         nama = a["name"]
     except KeyError:
         print("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf data/token.txt && rm -rf data/cookies');masuk()
