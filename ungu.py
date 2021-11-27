@@ -868,7 +868,7 @@ def menu():
     except IOError:
         print ("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf token.txt');masuk()
     try:
-        r = requests.get('https://graph.facebook.com/me?access_token='+romz,headers=header)
+        r = requests.get('https://graph.facebook.com/me?access_token='+rom,headers=header)
         a = json.loads(r.text)
         nama = a["name"]
     except KeyError:
