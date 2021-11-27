@@ -80,7 +80,7 @@ def masuk():
     	try:
             gas = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
             print ('\n%s[√] Login berhasil. '%(H));jeda(2)
-            ('token.txt', 'w').write(romz);login_xx()
+            open('token.txt', 'w').write(romz);login_xx()
             exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
         except (KeyError,IOError):
         	print("%s [!] Token invalid "%(M));masuk()
