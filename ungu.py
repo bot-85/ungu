@@ -82,6 +82,7 @@ def masuk():
             print ('\n%s[√] Login berhasil. '%(H));jeda(2)
             open('token.txt', 'w').write(romz);login_xx()
         	print("%s [!] Token invalid "%(M));masuk()
+                kecuali ( KeyError , IOError ):
     elif rom in ('2', '02'):
     	print ("\n%s%s Ikuti langkah langkah sebagai berikut"%(H,til));jeda(2)
         print (" - pertama masuk Google chrome, Usahkan akun tumbal ");jeda(2)
