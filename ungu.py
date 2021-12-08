@@ -879,7 +879,7 @@ def menu():
         print("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf data/token.txt && rm -rf data/cookies');masuk()
     except requests.exceptions.ConnectionError:
         exit("%s [!] Kesalahan koneksi "%(M))
-    banner()
+    logo()
     print ('\n %s[ Selamat Datang %s%s%s ] \n'%(P,H,nama,P))
     print (' [%s01%s]. Crack Nama Ig/Instagram'%(O,U)) 
     print (' [%s02%s]. Dump Id Facebook Publik'%(O,K)) 
