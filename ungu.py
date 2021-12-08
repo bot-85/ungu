@@ -917,8 +917,6 @@ def menu():
     elif unik in['9','09']:
     	useragent()
     elif unik in['10','10']:
-        pendapatan()
-    elif unik in['11','11']:
         opsi()
 
 def opsi():
