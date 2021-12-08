@@ -919,7 +919,7 @@ def menu():
     elif unik in['10','10']:
         pendapatan()
     elif unik in['11','11']:
-        check opsi()
+        opsi()
 
 def opsi():
     	print "\n%s [01] Pendapatan Facebook "%(P)
