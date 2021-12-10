@@ -67,7 +67,7 @@ def logo():
 \x1b[1;94m |    |   /_____/ /    Y    \    |   \|     \   
 \x1b[1;95m \___ |           \____|__  /______  /\___  /   
 \x1b[1;96m     \/                   \/       \/     \/      """%(N))   
-\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mCreated By \x1b[1;97m: \x1b[1;93m\x1b[1;97m\x1b[1;93mBintang Tzy
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mCreated By \x1b[1;97m: \x1b[1;93mBintang Tzy
 \x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mFb         \x1b[1;97m: \x1b[1;93mBintang Tzy
 \x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mGh         \x1b[1;97m: \x1b[1;93mhttps://github.com/bot-85
 \x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mWa         \x1b[1;97m: \x1b[1;93m+628380192xxxx
