@@ -926,8 +926,6 @@ def opsi():
         print "%s [02] Pendapatan Instagram "%(P)
         c = raw_input('\n%s [?] Menu : %s'%(P,O))
     	hasill(c)
-    elif unik in['11','11']: 
-        file_cp() 
     elif unik in['8','11']:
         os.system("xdg-open https://www.facebook.com/groups/924679595149360")
     elif unik in['9','10']:
