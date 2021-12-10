@@ -57,22 +57,19 @@ def folder():
 		open("data/ua.txt","w").write(ua_)
 	except:
 		pass
-# LOGO (LO GOBLOK)
-IP = requests.get("https://api.ipify.org/").text
-def banner():
-	print (""" 
-\x1b[1;93m•\x1b[1;92mFuck \x1b[1;97m- \x1b[1;92mMulti Brute Force\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•
-\x1b[1;93m•\x1b[1;91m ___________          _____ _____________________ \x1b[1;93m•
-\x1b[1;93m•\x1b[1;92m \_   _____/         /     \\______   \_   _____/  \x1b[1;93m•
-\x1b[1;93m•\x1b[1;93m  |    __)  ______  /  \ /  \|    |  _/|    __)   \x1b[1;93m•
-\x1b[1;93m•\x1b[1;94m  |     \  /_____/ /    Y    \    |   \|     \    \x1b[1;93m•
-\x1b[1;93m•\x1b[1;95m  \___  /          \____|__  /______  /\___  /    \x1b[1;93m•    
-\x1b[1;93m•\x1b[1;96m      \/                   \/       \/     \/     \x1b[1;93m•
-\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;93m•\x1b[1;92mFuck \x1b[1;97m- \x1b[1;92mMulti Brute Force\x1b[1;93m•
-
-\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mCreated By \x1b[1;97m: \x1b[1;93mO\x1b[1;97m'\x1b[1;93mHayo \x1b[1;97mX \x1b[1;93mDitzy
-\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mFb         \x1b[1;97m: \x1b[1;93mhttps://www.facebook.com/rendi.gerot.1
-\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mGh         \x1b[1;97m: \x1b[1;93mhttps://github.com/YumasaaTzy
+### BAGIAN LOGO ###
+def logo():
+	os.system("clear")
+	print("""%s
+\x1b[1;91m___________          _____ _____________________
+\x1b[1;92m\_   _____/         /     \\______   \_   _____/
+\x1b[1;93m |    __)  ______  /  \ /  \|    |  _/|    __)  
+\x1b[1;94m |    |   /_____/ /    Y    \    |   \|     \   
+\x1b[1;95m \___ |           \____|__  /______  /\___  /   
+\x1b[1;96m     \/                   \/       \/     \/      """%(N))   
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mCreated By \x1b[1;97m: \x1b[1;93m\x1b[1;97m\x1b[1;93mBintang Tzy
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mFb         \x1b[1;97m: \x1b[1;93mBintang Tzy
+\x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mGh         \x1b[1;97m: \x1b[1;93mhttps://github.com/bot-85
 \x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mWa         \x1b[1;97m: \x1b[1;93m+628380192xxxx
 \x1b[1;92m[\x1b[1;93m+\x1b[1;92m] \x1b[1;93mAuthor     \x1b[1;97m: \x1b[1;93mDitzy \x1b[1;97mX \x1b[1;93mO\x1b[1;97m'\x1b[1;93mHayo 
 """)
@@ -890,7 +887,7 @@ def menu():
     except requests.exceptions.ConnectionError:
         exit("%s [!] Kesalahan koneksi "%(M))
     banner()
-    print ('\n %s[ Akulah %s%s%s ] \n'%(P,H,nama,P))
+    print ('\n %s[ hola %s%s%s ] \n'%(P,H,nama,P))
     print (' (%s01%s) Instagram Crack Nama'%(O,U)) 
     print (' (%s02%s) Facebook Dump Publik'%(O,P)) 
     print (' (%s03%s) Facebook Dump Follow'%(O,P))
