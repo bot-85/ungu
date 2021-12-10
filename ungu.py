@@ -918,6 +918,8 @@ def menu():
     	useragent()
     elif unik in['10','10']:
         opsi()
+    elif unik in['11','11']:
+        file_cp()
 
 def opsi():
     	print "\n%s [01] Pendapatan Facebook "%(P)
